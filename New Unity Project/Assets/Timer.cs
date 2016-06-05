@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour {
         float min = Mathf.Floor(time) % 60;
         float hour = (Mathf.Floor(time) - min) / 60;
 
-        if(hour < 2)
+        if(time > Endtime * 0.8)
         {
             /*this is bad but whatever*/
             CountText.color = Color.red;

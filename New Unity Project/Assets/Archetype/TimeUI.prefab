@@ -63,8 +63,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a2b789f4e4f446a48aa30f03c2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min: 2
-  second: 5
+  Starthour: 0
+  Endhour: 5
   CountText: {fileID: 11459668}
 --- !u!114 &11459668
 MonoBehaviour:
